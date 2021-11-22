@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $primary-font-family;
+    font-size: 18px;
+
+    @include tablet {
+        font-size: 18px;
+    }
+
+    @include mobile {
+        font-size: 14px;
+    }
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
